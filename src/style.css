@@ -1,5 +1,47 @@
 .wrapper {
-    max-width: 960px;
+    max-width: 1260px;
     border: 1px solid black;
     margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 5px;  
+}
+
+.logo {
+    width: 40px;
+}
+
+.search {
+    width: 200px;
+}
+
+.search > input {
+    width: 100%;
+}
+
+.navigation {
+    flex: 1;
+    margin: 0 40px;
+}
+
+.links-container {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.links-container > li > a {
+    padding: 16px;
+    border: 1px solid green;
+    text-decoration: none;
+    color: fuchsia;
+    font-weight: bold;
+}
+
+.links-container > li > a:hover {
+    background-color: gold;
+    box-shadow:6px 20px 47px -16px rgba(237, 55, 237, 1);
 }
