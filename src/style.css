@@ -45,3 +45,36 @@
     background-color: gold;
     box-shadow:6px 20px 47px -16px rgba(237, 55, 237, 1);
 }
+
+.food {
+    width: 100%;
+    z-index: 2;
+
+}
+
+.recept {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    background-color: khaki;
+    opacity:calc(0.7);
+    z-index: 1;
+}
+
+.carousel {
+    position: relative;
+    margin-top: 2em;    
+}
+
+.clients {
+    display: flex;
+    margin-top: 5em;
+}
+
+.clients > article {
+    border: 1px solid black;
+}
+
+.footer
