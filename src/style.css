@@ -77,4 +77,8 @@
     border: 1px solid black;
 }
 
-.footer
+.footer {
+    margin: 2em 0;
+    text-align: center;
+
+}
